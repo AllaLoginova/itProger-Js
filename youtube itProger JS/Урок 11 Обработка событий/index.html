@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="alert('Вы нажали на меня')">Из HTML</button>
+    <button onclick="onClickButtun()">из JS</button>
+    <p onclick="onClickButtun()">из абзаца</p>
+    <button ondblclick="onClickButtun()">Нажми на меня 2 раза</button>
+    <button onmouseover="onClickButtun()">Просто наведи на меня</button>
+    <button onmouseout="onClickButtun()">Отведи от меня курсор</button>
+    <button oninput="onClickButtun()">из input</button>
+    <button id="id" name="mainButton" onclick="onClickButtun2(this)">из JS 2</button>
+    <input oninput="onInput(this)">
+
+    <script src="index.js"></script>
+</body>
+</html>
